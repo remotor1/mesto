@@ -7,9 +7,6 @@ let formElement = document.querySelector('.popup__container');
 let nameInput = formElement.querySelector('.popup__name');
 let jobInput = formElement.querySelector('.popup__info');
 
-
-// Закрытие открытие попап
-
 editButton.addEventListener('click', function () {
   popup.classList.add('popup_opened');
   nameInput.value = profileTitle.textContent;
@@ -28,21 +25,3 @@ function formSubmitHandler(evt) {
 }
 
 formElement.addEventListener('submit', formSubmitHandler);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
