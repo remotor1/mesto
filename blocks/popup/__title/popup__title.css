@@ -9,11 +9,11 @@
     font-style: normal;
 }
 
-
 @media (max-width: 860px) {
     .popup__title {
         width: 238px;
         font-size: 18px;
         line-height: 22px;
+        margin: 30px auto 75px;
     }
 }

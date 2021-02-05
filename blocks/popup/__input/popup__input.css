@@ -1,4 +1,4 @@
-.popup__info {
+.popup__input {
     display: block;
     width: 358px;
     margin: 30px auto 0;
@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 860px) {
-    .popup__info {
+    .popup__input {
         width: 238px;
     }
 }

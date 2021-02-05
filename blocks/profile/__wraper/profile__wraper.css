@@ -3,9 +3,3 @@
     align-items: flex-end;
     margin-bottom: 16px;
 }
-
-@media (max-width: 860px) {
-    .profile__wraper {
-        max-width: 320px;
-    }
-}

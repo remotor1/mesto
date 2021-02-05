@@ -3,3 +3,9 @@
     padding: 0 0 39px;
     border: none;
 }
+
+@media (max-width: 860px) {
+    .header__logo {
+        max-width: 103px;
+    }
+}

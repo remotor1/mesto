@@ -1,8 +1,6 @@
 .popup__container {
-    /* position: absolute; */
     position: relative;
     width: 430px;
-    height: 330px;
     border-radius: 10px;
     background-color: #fff;
 }
@@ -12,4 +10,4 @@
         width: 282px;
         height: 322px;
     }
-}
+} 

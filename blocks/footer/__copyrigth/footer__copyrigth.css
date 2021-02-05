@@ -7,3 +7,10 @@
     font-size: 18px;
     line-height: 22px;
 }
+
+@media (max-width: 860px) {
+    .footer__copyrigth {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
