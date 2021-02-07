@@ -1,4 +1,4 @@
 .elements__picture {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }

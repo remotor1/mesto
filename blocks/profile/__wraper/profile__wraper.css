@@ -1,5 +1,25 @@
+/* 
 .profile__wraper {
     display: flex;
     align-items: flex-end;
     margin-bottom: 16px;
-}
+} */
+
+
+
+.profile__wraper {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+    justify-self: center;
+
+  }
+  @media (max-width: 860px) {
+    .profile__wraper {
+      max-width: 100%;
+      margin-bottom: 14px;
+    }  
+  }
